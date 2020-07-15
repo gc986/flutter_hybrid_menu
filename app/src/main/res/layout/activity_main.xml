@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/clRoot">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Text"/>
+
+        <Button
+            android:id="@+id/btBrowser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Browser"/>
+
+        <Button
+            android:id="@+id/btNative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Native"/>
+
+        <Button
+            android:id="@+id/btMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu"/>
+
+        <Button
+            android:id="@+id/btChild"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Child"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

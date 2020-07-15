@@ -1,0 +1,10 @@
+include ':app'
+setBinding(new Binding([gradle: this]))
+evaluate(new File(
+  settingsDir,
+  '../flutter-experiment-flutter/flutter_master/.android/include_flutter.groovy'
+))
+rootProject.name = "AndroidFlutterWrapper"
+
+include ':flutter_master'
+project(':flutter_master').projectDir = new File('../flutter-experiment-flutter/flutter_master')
